@@ -1,0 +1,16 @@
+header {
+  background-color: lightblue;
+  font-family: fantasy;
+}
+
+section {
+  background-color: aqua;
+  border: 10px solid black;
+  font-family: fantasy;
+}
+
+img {
+  display: inline-block;
+  height: 30%;
+  width: 30%;
+}

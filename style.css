@@ -1,9 +1,35 @@
 header {
   background-color: lightblue;
+
   font-family: fantasy;
 }
 
 section {
   background-color: aqua;
   font-family: fantasy;
+
+  display: block;
+  font-family: fantasy;
+  font-size: 30px;
+}
+
+
+section {
+  background-color: aqua;
+  font-family: fantasy;
+  font-size: 25px;
+}
+
+sub {
+  font-size: 30px;
+}
+
+p {
+  background-color: lightseagreen;
+  display: inline-block;
+}
+
+#Quote {
+  font-family: cursive;
+
 }

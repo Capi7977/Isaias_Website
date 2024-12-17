@@ -1,5 +1,13 @@
 header {
   background-color: lightblue;
+
+  font-family: fantasy;
+}
+
+section {
+  background-color: aqua;
+  font-family: fantasy;
+
   display: block;
   font-family: fantasy;
   font-size: 30px;
@@ -23,5 +31,5 @@ p {
 
 #Quote {
   font-family: cursive;
-  font-size: 40px;
+
 }

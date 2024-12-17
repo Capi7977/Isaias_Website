@@ -6,6 +6,21 @@ header {
 
 section {
   background-color: aqua;
+  border: 10px solid black;
+  font-family: fantasy;
+}
+
+img {
+  display: inline-block;
+  height: 30%;
+  width: 30%;
+
+
+  font-family: fantasy;
+}
+
+section {
+  background-color: aqua;
   font-family: fantasy;
 
   display: block;
@@ -31,5 +46,6 @@ p {
 
 #Quote {
   font-family: cursive;
+
 
 }

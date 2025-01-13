@@ -1,9 +1,72 @@
-header {
-  background-color: lightblue;
+body{
   font-family: fantasy;
+  background-color: rgb(137, 137, 251);
+}
+.flex {
+  box-sizing: border-box;
+  background-color: aqua;
+  display: grid;
+  grid-template-columns: 60% 3% 3% 3%;
+  align-items: center;
+  justify-content: space-evenly;
+  grid-template-areas:
+  "header header header header" ;
 }
 
-section {
-  background-color: aqua;
-  font-family: fantasy;
+button {
+  width: 30%;
+  border-radius: 5%;
+  font-size: 15px;
+}
+
+#form {
+  background-color: cadetblue;
+  box-sizing: border-box;
+  font-size: 35px;
+  display: grid;
+  grid-template-columns: 70%;
+  justify-content: center;
+  margin: 0px 30px;
+}
+
+input{
+  width: 100%;
+  height: 30px;
+}
+
+
+h1 {
+  font-size: 50px;
+}
+
+a {
+  font-size: 25px
+}
+
+@media(max-width: 468px) {
+ .flex {
+  display: flex;
+  justify-content: space-between;
+ }
+
+ a {
+  font-size: 15px;
+ }
+
+
+  #form {
+    display: flex;
+    flex-direction: column;
+  }
+  input{
+    width: 90%;
+    height: 30px;
+  }
+}
+
+@media (max-width: 900px) {
+  .flex{
+    display: flex;
+  }
+  
 }

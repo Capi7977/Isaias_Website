@@ -1,51 +1,73 @@
-header {
-  background-color: lightblue;
 
+body{
   font-family: fantasy;
+  background-color: rgb(137, 137, 251);
 }
-
-section {
+.flex {
+  box-sizing: border-box;
   background-color: aqua;
-  border: 10px solid black;
-  font-family: fantasy;
+  display: grid;
+  grid-template-columns: 60% 3% 3% 3%;
+  align-items: center;
+  justify-content: space-evenly;
+  grid-template-areas:
+  "header header header header" ;
 }
 
-img {
-  display: inline-block;
-  height: 30%;
+button {
   width: 30%;
-
-
-  font-family: fantasy;
+  border-radius: 5%;
+  font-size: 15px;
 }
 
-section {
-  background-color: aqua;
-  font-family: fantasy;
+#form {
+  background-color: cadetblue;
+  box-sizing: border-box;
+  font-size: 35px;
+  display: grid;
+  grid-template-columns: 70%;
+  justify-content: center;
+  margin: 0px 30px;
+}
 
-  display: block;
-  font-family: fantasy;
-  font-size: 30px;
+input{
+  width: 100%;
+  height: 30px;
 }
 
 
-section {
-  background-color: aqua;
-  font-family: fantasy;
-  font-size: 25px;
+h1 {
+  font-size: 50px;
 }
 
-sub {
-  font-size: 30px;
+a {
+  font-size: 25px
 }
 
-p {
-  background-color: lightseagreen;
-  display: inline-block;
+@media(max-width: 468px) {
+ .flex {
+  display: flex;
+  justify-content: space-between;
+ }
+
+ a {
+  font-size: 15px;
+ }
+
+
+  #form {
+    display: flex;
+    flex-direction: column;
+  }
+  input{
+    width: 90%;
+    height: 30px;
+  }
 }
 
-#Quote {
-  font-family: cursive;
-
-
+@media (max-width: 900px) {
+  .flex{
+    display: flex;
+  }
+  
 }
